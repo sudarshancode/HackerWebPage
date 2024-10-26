@@ -5,6 +5,12 @@
     40% { color: orange; }
     80% { color: purple; }
 }
+
+@keyframes colorChangeInBanner{
+    30% { color: red;}
+    70% {color: green;}
+    30% {color: blue;}
+}
 /* Initial style for the image */
 .image {
     width: 200px;
@@ -56,6 +62,7 @@ body{
     padding-right: 40px;
     border-radius: 25px 1px 25px 1px;
     opacity: 90%;
+    animation: colorChangeInBanner 1s infinite;
 }
 
 #whoWeAre{
