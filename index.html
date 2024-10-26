@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Mirrored Rotation Animation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body style="background-image: url(img/sawunn.gif);">
+    <div class="header-top-bar">
+        <h1 id="heading">JOY SHREE RAM</h1>
+    </div>
+    <div class="header">
+        <img src="img/shreeRam.png" alt="Mirrored Rotation Image" class="image" id="myImage">
+    </div>
+
+    <div class="page-body">
+        <hr>
+        <div class="body-title">
+            <p id="whoHacked">HACKED BY Mr. S</p>
+        </div>
+        <hr>
+        <p id="protect">PROTECT YOUR WEB SERVER</p>
+        <p id="whoWeAre">We are Indian WhiteHat Hacker</p>
+        <p id="desc"> We have found bug in your website</p>
+    </div>
+
+    <div class="fotter">
+        <h4>Contact with me to get your site</h4>
+    </div>
+    
+
+    <script>
+        // Automatically apply mirrored rotation when the page loads
+        window.onload = () => {
+            const image = document.getElementById('myImage');
+            image.classList.add('rotate-mirror');
+            
+            // Optional: If you want the image to keep toggling the animation, you can set up an interval
+            setInterval(() => {
+                image.classList.toggle('rotate-mirror');
+            }, 2000); // Adjust the interval time as needed
+        };
+    </script>
+</body>
+</html>

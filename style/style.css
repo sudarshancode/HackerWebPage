@@ -1,0 +1,81 @@
+@keyframes colorChange {
+    10% { color: red; }
+    20% { color: blue; }
+    60% { color: green; }
+    40% { color: orange; }
+    80% { color: purple; }
+}
+/* Initial style for the image */
+.image {
+    width: 200px;
+    transition: transform 2s ;
+}
+/* Rotated and mirrored state */
+.rotate-mirror {
+    transform: scaleX(-1);
+}
+body{
+     
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; /* Center the GIF */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+.header{
+    text-align: center;
+}
+.header-top-bar{
+    text-align: center;
+}
+#heading{
+    color: #ff9317;
+}
+.page-body{
+    text-align: center;
+}
+.body-title{
+    text-align: center;
+    padding: 0px;
+}
+#whoHacked{
+    color: rgb(237, 28, 9);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Rubik Wet Paint", system-ui;
+    animation: colorChange 1s infinite;
+}
+
+
+#protect{
+    display: inline-block;
+    color: green;
+    background-color: rgb(21, 20, 20);
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px 1px 25px 1px;
+    opacity: 90%;
+}
+
+#whoWeAre{
+    color: rgb(255, 0, 225);
+    font-size: 16px;
+    font-family: "Oxanium", sans-serif;
+    font-weight: bold;
+}
+
+#desc{
+    color: #ff9317;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.fotter{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
