@@ -7,9 +7,9 @@
 }
 
 @keyframes colorChangeInBanner{
-    30% { color: red;}
+    40% { color: red;}
     70% {color: green;}
-    30% {color: blue;}
+    
 }
 /* Initial style for the image */
 .image {
