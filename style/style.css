@@ -25,6 +25,7 @@ body{
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; /* Center the GIF */
+    background-attachment: fixed;
     height: 100vh; /* Full viewport height */
     margin: 0;
 }
